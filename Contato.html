@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primeira Geração Modernista</title>
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <ul type="disc">
+            <li><a href="index.html">Primeira Geração Modernista</a></li>
+            <li><a href="ListaObrasModernistas.html">Obras Modernistas</a></li>
+            <ul type="circle">
+                <li><a href="AnitaMalfatti.html">Obras de Anita Malfatti</a></li>
+                <li><a href="TarsilaAmaral.html">Obras de Tarsila do Amaral</a></li>
+                <li><a href="DiCavalcanti.html" rel="prev">Obras de Di Cavalcanti</a></li>
+            </ul>
+            <li><a href="Contato.html">Entre em contato com nós</a></li>
+        </ul>
+        <form>
+            <fieldset>
+                <legend>Preencha os requisitos abaixo para falar conosco</legend>
+                <p>Para falar conosco é preciso criar uma conta no talles simulator, digite seu email, sua senha e a data de criação de sua conta</p>
+                <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail" placeholder="exemplo01@gmail.com"></p>
+                <p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha"></p>
+                <p><label for="idData">Data:</label><input type="date" name="nData" id="idData"></p>
+                <br>
+                <br>
+                <label for="idNum">Dê a nota para meu site de 1 a 10. Lembrando, sei onde você mora e onde trabalha das 19:00 às 22:30</label><br><input type="number" name="nNum" id="idNum" min="0" max="10">
+                <br>
+                <br>
+                <label for="idSelecao">Filtre seu erro por aqui para facilitar minha vida</label><br>
+                <select name="nSelecao" id="idSelecao">
+                    <option value="ErroPor">Erro de português</option>
+                    <option value="ErroObr">Erro em obras</option>
+                    <option value="ErroArq">Erro em algum arquivo de video</option>
+                    <option value="FalarCon">Feedback</option>
+                    <option value="RegisArt">Apreciar a calvice do Igor</option>
+                </select>
+                <br>
+                <br>
+                <label for="idTexto"></label><input type="text" name="nTexto" id="idTexto" size="40" placeholder="Coloque um título para sei la o que você vai fazer">
+                <label for="idCaixa"></label><br><textarea type="text" cols="50" rows="10" placeholder="Digite aqui!" name="nCaixa" id="idCaixa"></textarea><br>
+                <br>
+                <br>    
+                <label for="idRange">Pega TDAH. Se você tem, olhe essa bolinha laranja e mexa ela</label><br><input type="range" min="1" max="10" name="nRange" id="idRange">
+                <br>
+                <label for="id1">Outro pega TDAH</label><br><input type="radio" name="IgorVoceECalvo" value="Opção 1" id="id1"><label
+                for="id1">Botão laranja 01</label>
+                <input type="radio" name="IgorVoceECalvo" value="Opção 2" id="id2"><label for="id2">Botão laranja 02</label>
+                <br>
+                <br>
+            
+            </fieldset>
+        </form>
+    </body>
